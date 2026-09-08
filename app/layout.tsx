@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.brgsonstruckingllc.com'),
+  metadataBase: new URL('https://brg-integrated-services-preview.eagle-corps-9908.chatgpt.site'),
   title: 'BRG Integrated Services | Regional Logistics',
   description:
     'Veteran-owned regional logistics for commercial, government, and prime-contractor requirements across South Carolina, North Carolina, and Georgia.',
