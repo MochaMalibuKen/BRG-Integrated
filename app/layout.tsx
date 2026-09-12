@@ -17,11 +17,16 @@ export const metadata: Metadata = {
   title: 'BRG Integrated Services | Regional Logistics',
   description:
     'Veteran-owned regional logistics for commercial, government, and prime-contractor requirements across South Carolina, North Carolina, and Georgia.',
-  alternates: {\n    canonical: '/',\n  },\n  openGraph: {
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
     title: 'BRG Integrated Services | Regional Logistics',
     description:
       'Disciplined regional transportation, dedicated delivery, scheduled routes, and logistics support.',
-    url: '/',\n    siteName: 'BRG Integrated Services',\n    type: 'website',
+    url: '/',
+    siteName: 'BRG Integrated Services',
+    type: 'website',
     images: [{ url: '/og.png', width: 1200, height: 630, alt: 'BRG Integrated Services regional logistics' }],
   },
   twitter: {
