@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://brg-integrated-services-preview.eagle-corps-9908.chatgpt.site'),
+  metadataBase: new URL('https://www.brgsonstruckingllc.com'),
   title: 'BRG Integrated Services | Regional Logistics',
   description:
     'Veteran-owned regional logistics for commercial, government, and prime-contractor requirements across South Carolina, North Carolina, and Georgia.',
-  openGraph: {
+  alternates: {\n    canonical: '/',\n  },\n  openGraph: {
     title: 'BRG Integrated Services | Regional Logistics',
     description:
       'Disciplined regional transportation, dedicated delivery, scheduled routes, and logistics support.',
-    type: 'website',
+    url: '/',\n    siteName: 'BRG Integrated Services',\n    type: 'website',
     images: [{ url: '/og.png', width: 1200, height: 630, alt: 'BRG Integrated Services regional logistics' }],
   },
   twitter: {
