@@ -4,13 +4,14 @@
 
 - Public name: BRG Integrated Services, LLC
 - Location: Aiken, South Carolina
-- Business type: Veteran-owned small business
+- Contact email: brgintegratedservices@outlook.com
+- Business type: Service Disabled Veteran Owned small business
 - Market focus: Commercial and government logistics
 - Regional focus: South Carolina, North Carolina, and Georgia, subject to route and availability review
 
 ## Public description
 
-BRG Integrated Services, LLC is a veteran-owned logistics company based in Aiken, South Carolina. BRG supports commercial organizations, prime contractors, and public-sector buyers with responsive regional transportation, dedicated delivery, scheduled routes, courier support, and expedited delivery coordination.
+BRG Integrated Services, LLC is a service disabled veteran owned logistics company based in Aiken, South Carolina. BRG supports commercial organizations, prime contractors, and public-sector buyers with responsive regional transportation, dedicated delivery, scheduled routes, courier support, and expedited delivery coordination.
 
 ## Public services
 

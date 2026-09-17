@@ -24,7 +24,7 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'BRG Integrated Services, LLC',
-    description: 'Veteran-owned regional logistics company serving commercial and government buyers.',
+    description: 'Service Disabled Veteran Owned regional logistics company serving commercial and government buyers.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Aiken',
@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <main>
       <a className="skip-link" href="#services">Skip to content</a>
-      <div className="utility-bar"><span>VETERAN-OWNED · AIKEN, SOUTH CAROLINA</span><a href="tel:+18032210020">803-221-0020 <span aria-hidden="true">↗</span></a></div>
+      <div className="utility-bar"><span>SERVICE DISABLED VETERAN OWNED · AIKEN, SOUTH CAROLINA</span><a href="tel:+18032210020">803-221-0020 <span aria-hidden="true">↗</span></a></div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
@@ -58,7 +58,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> Veteran-owned · Mission-focused</p>
+          <p className="eyebrow"><span /> Service Disabled Veteran Owned · Mission-focused</p>
           <h1>Driven by service.<br /><em>Built for the mission.</em></h1>
           <p className="hero-lede">
             Regional freight, dedicated delivery, and logistics coordination for commercial teams,
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       <section className="trust-strip" aria-label="Company highlights">
-        <div><span aria-hidden="true">✦</span><strong>Veteran-owned</strong><small>Small business</small></div>
+        <div><span aria-hidden="true">✦</span><strong>Service Disabled Veteran Owned</strong><small>Small business</small></div>
         <div><span aria-hidden="true">✦</span><strong>Regional focus</strong><small>SC · NC · GA</small></div>
         <div><span aria-hidden="true">✦</span><strong>SAM.gov registered</strong><small>Government opportunities</small></div>
         <div><span aria-hidden="true">✦</span><strong>Direct coordination</strong><small>From request to delivery</small></div>
@@ -133,7 +133,7 @@ export default function Home() {
           <div className="gov-credentials">
             <span className="brief-label">Public sector &amp; prime contractors</span>
             <strong>Prepared for<br />the requirement.</strong>
-            <dl><div><dt>Business</dt><dd>Veteran-owned small business</dd></div><div><dt>UEI</dt><dd>JU2PUDSGGZG5</dd></div><div><dt>CAGE</dt><dd>1SHG4</dd></div><div><dt>NAICS</dt><dd>484122 · 484220 · 484230 · 492210</dd></div><div><dt>Opportunities</dt><dd>Government &amp; subcontracting</dd></div></dl>
+            <dl><div><dt>Business</dt><dd>Service Disabled Veteran Owned small business</dd></div><div><dt>UEI</dt><dd>JU2PUDSGGZG5</dd></div><div><dt>CAGE</dt><dd>1SHG4</dd></div><div><dt>NAICS</dt><dd>484122 · 484220 · 484230 · 492210</dd></div><div><dt>Opportunities</dt><dd>Government &amp; subcontracting</dd></div></dl>
           </div>
           <div className="gov-copy">
             <p className="eyebrow"><span /> Government contracting</p>
@@ -154,7 +154,7 @@ export default function Home() {
           <p className="eyebrow"><span /> About BRG</p>
           <h2>Veteran leadership.<br />Accountability in action.</h2>
           <p className="large-copy">
-            BRG Integrated Services is a veteran-owned logistics company based in Aiken, South Carolina.
+            BRG Integrated Services is a service disabled veteran owned logistics company based in Aiken, South Carolina.
             Founded in 2025, BRG is led by Nnamdi Small, whose U.S. Marine Corps and federal civilian experience spans logistics, acquisition, purchasing, quality assurance, and program management. That background shapes a deliberate approach to every customer requirement.
           </p>
           <div className="principles">
@@ -186,7 +186,7 @@ export default function Home() {
         <div className="quote-intro">
           <p className="eyebrow"><span /> Start a conversation</p>
           <h2>Tell us what needs to move.</h2>
-          <p>From an urgent shipment to a recurring route or contracting opportunity, start with a direct conversation.</p><div className="contact-links"><a href="tel:+18032210020">803-221-0020 ↗</a><a href="mailto:brgsonstruckingllc@outlook.com">brgsonstruckingllc@outlook.com ↗</a></div><p className="quote-note">Cargo, vehicle availability, handling, and site-access requirements are reviewed before acceptance. No hazardous materials, oversized cargo, or specialized heavy equipment.</p>
+          <p>From an urgent shipment to a recurring route or contracting opportunity, start with a direct conversation.</p><div className="contact-links"><a href="tel:+18032210020">803-221-0020 ↗</a><a href="mailto:brgintegratedservices@outlook.com">brgintegratedservices@outlook.com ↗</a></div><p className="quote-note">Cargo, vehicle availability, handling, and site-access requirements are reviewed before acceptance. No hazardous materials, oversized cargo, or specialized heavy equipment.</p>
         </div>
         <QuoteForm />
       </section>
@@ -195,7 +195,7 @@ export default function Home() {
         <a className="brand footer-brand" href="#top" aria-label="BRG Integrated Services home">
           <Image className="brand-logo" src="/brg-logo.png" alt="BRG Integrated Services" width={1536} height={1024} />
         </a>
-        <p>Veteran-owned regional logistics · Aiken, South Carolina</p>
+        <p>Service Disabled Veteran Owned regional logistics · Aiken, South Carolina</p>
         <a href="#top">Back to top ↑</a>
       </footer>
     </main>
