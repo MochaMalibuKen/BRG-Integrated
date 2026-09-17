@@ -4,12 +4,12 @@ import Image from 'next/image';
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
 const services = [
-  ['01', 'Regional freight', 'Direct transportation support for time-sensitive business requirements within BRG’s regional focus.'],
-  ['02', 'Dedicated delivery', 'A focused vehicle and route coordinated around one customer requirement.'],
-  ['03', 'Last-mile delivery', 'Professional delivery support for the final movement from facility to destination.'],
-  ['04', 'Scheduled routes', 'Repeatable transportation support for recurring business and operational needs.'],
-  ['05', 'Expedited delivery', 'Responsive coordination when a shipment requires faster regional movement.'],
-  ['06', 'Courier support', 'Document, equipment, and small-parts movement reviewed for route and handling fit.'],
+  ['regional', 'Regional freight', 'Freight transportation across South Carolina, North Carolina, and Georgia, coordinated around your schedule.'],
+  ['dedicated', 'Dedicated delivery', 'A focused vehicle and route coordinated around one customer requirement.'],
+  ['last-mile', 'Last-mile delivery', 'Professional delivery support for the final movement from facility to destination.'],
+  ['scheduled', 'Scheduled routes', 'Repeatable transportation support for recurring business and operational needs.'],
+  ['expedited', 'Expedited delivery', 'Time-sensitive regional delivery coordination when the schedule demands focused attention.'],
+  ['courier', 'Courier support', 'Document, equipment, and small-parts movement reviewed for route and handling fit.'],
 ];
 
 const process = [
@@ -36,6 +36,8 @@ export default function Home() {
 
   return (
     <main>
+      <a className="skip-link" href="#services">Skip to content</a>
+      <div className="utility-bar"><span>VETERAN-OWNED · AIKEN, SOUTH CAROLINA</span><a href="tel:+18032210020">803-221-0020 <span aria-hidden="true">↗</span></a></div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
@@ -48,18 +50,19 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#services">Services</a>
           <a href="#government">Government</a>
-          <a href="#about">About</a>
+          <a href="#about">Leadership</a>
+          <a href="#coverage">Coverage</a>
         </nav>
         <a className="header-cta" href="#quote">Request a quote <Arrow /></a>
       </header>
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow"><span /> Aiken South Carolina</p>
-          <h1>Regional logistics.<br /><em>Clear ownership.</em></h1>
+          <p className="eyebrow"><span /> Veteran-owned · Mission-focused</p>
+          <h1>Driven by service.<br /><em>Built for the mission.</em></h1>
           <p className="hero-lede">
-            Veteran-owned transportation and delivery support for commercial teams,
-            government buyers, and prime contractors across the Carolinas and Georgia.
+            Regional freight, dedicated delivery, and logistics coordination for commercial teams,
+            government buyers, and prime contractors. Based in Aiken. Serving the Carolinas and Georgia.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#quote">Discuss your shipment <Arrow /></a>
@@ -67,38 +70,39 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mission-board" aria-label="BRG operating approach">
-          <div className="board-topline"><span>BRG / REGIONAL OPS</span><span>01</span></div>
-          <div className="route-grid" aria-hidden="true">
-            <span className="route route-a" />
-            <span className="route route-b" />
-            <span className="route route-c" />
-            <i className="node node-a" /><i className="node node-b" /><i className="node node-c" />
-          </div>
-          <div className="board-status">
-            <p>Operating principle</p>
-            <strong>One mission.<br />One accountable team.</strong>
-          </div>
-        </div>
+        <aside className="mission-visual" aria-label="Regional logistics serving the Carolinas and Georgia">
+          <div className="visual-top"><span>REGIONAL LOGISTICS</span><span>SC / NC / GA</span></div>
+          <svg className="route-visual" viewBox="0 0 500 360" role="img" aria-label="Schematic regional routes centered on Aiken, South Carolina; not a geographic map">
+            <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" strokeOpacity=".06" /></pattern></defs>
+            <rect width="500" height="360" fill="url(#grid)" />
+            <circle cx="240" cy="210" r="125" fill="none" stroke="#c2a46d" strokeOpacity=".2" /><circle cx="240" cy="210" r="72" fill="none" stroke="#c2a46d" strokeOpacity=".25" />
+            <path d="M95 275 L240 210 L370 80 M240 210 L405 240 M240 210 L170 105" fill="none" stroke="#c2a46d" strokeWidth="2" />
+            <g fill="#c2a46d"><circle cx="95" cy="275" r="5"/><circle cx="370" cy="80" r="5"/><circle cx="405" cy="240" r="5"/><circle cx="170" cy="105" r="5"/></g>
+            <circle cx="240" cy="210" r="16" fill="#c2a46d" fillOpacity=".2"/><circle cx="240" cy="210" r="6" fill="#e4c990"/>
+            <g fill="#dbe2ea" fontSize="13" fontFamily="Arial, sans-serif" letterSpacing="2"><text x="295" y="55">NORTH CAROLINA</text><text x="292" y="280">SOUTH CAROLINA</text><text x="48" y="310">GEORGIA</text><text x="215" y="178" fill="#e4c990">AIKEN · HQ</text></g>
+          </svg>
+          <div className="visual-bottom"><span className="visual-cross" aria-hidden="true">✦</span><div><strong>Regional reach. Direct accountability.</strong><p>Dedicated movement across the Carolinas and Georgia.</p></div></div>
+          <span className="schematic-note">Service-region schematic · Routes subject to review</span>
+        </aside>
       </section>
 
       <section className="trust-strip" aria-label="Company highlights">
-        <div><span>01</span><strong>Veteran-owned</strong><small>Small business</small></div>
-        <div><span>02</span><strong>Regional focus</strong><small>SC · NC · GA</small></div>
-        <div><span>03</span><strong>Government-ready</strong><small>Registered in SAM.gov</small></div>
-        <div><span>04</span><strong>Direct coordination</strong><small>From request to delivery</small></div>
+        <div><span aria-hidden="true">✦</span><strong>Veteran-owned</strong><small>Small business</small></div>
+        <div><span aria-hidden="true">✦</span><strong>Regional focus</strong><small>SC · NC · GA</small></div>
+        <div><span aria-hidden="true">✦</span><strong>SAM.gov registered</strong><small>Government opportunities</small></div>
+        <div><span aria-hidden="true">✦</span><strong>Direct coordination</strong><small>From request to delivery</small></div>
       </section>
 
       <section className="services section" id="services">
         <div className="section-heading">
           <p className="eyebrow"><span /> Core capabilities</p>
-          <h2>Transportation shaped around the requirement.</h2>
-          <p>Service fit, route coverage, timing, cargo requirements, and vehicle availability are confirmed during quote review.</p>
+          <h2>Purpose-built support.<br />From pickup to delivery.</h2>
+          <p>From a single delivery to a recurring route, BRG coordinates transportation around your cargo, schedule, and destination.</p>
         </div>
         <div className="service-list">
           {services.map(([number, title, copy]) => (
             <article className="service-row" key={number}>
-              <span>{number}</span>
+              <span className="service-icon" aria-hidden="true">{number === 'scheduled' ? '↻' : number === 'regional' ? '⌁' : number === 'expedited' ? '↗' : number === 'dedicated' ? '◇' : number === 'courier' ? '▱' : '⌖'}</span>
               <h3>{title}</h3>
               <p>{copy}</p>
               <a href="#quote" aria-label={`Discuss ${title}`}>↗</a>
@@ -107,15 +111,16 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="industries section" aria-labelledby="industries-title"><div><p className="eyebrow"><span /> Who we serve</p><h2 id="industries-title">Aligned with<br />your operation.</h2></div><div className="industry-grid"><article><h3>Government &amp; prime contractors</h3><p>Regional courier, facility, and subcontracting requirements with clear scope and documentation.</p></article><article><h3>Manufacturing &amp; industry</h3><p>Parts, supplies, and business-critical deliveries between suppliers and operating sites.</p></article><article><h3>Warehousing &amp; distribution</h3><p>Facility transfers, final-mile delivery, and recurring movements that keep goods flowing.</p></article><article><h3>Commercial organizations</h3><p>Dedicated routes and flexible delivery coordination for everyday business needs.</p></article></div></section>
       <section className="process-section" aria-labelledby="process-title">
         <div className="process-intro">
           <p className="eyebrow"><span /> Working approach</p>
           <h2 id="process-title">Clarity at every handoff.</h2>
         </div>
         <div className="process-grid">
-          {process.map(([title, copy], index) => (
+          {process.map(([title, copy]) => (
             <article key={title}>
-              <span>0{index + 1}</span>
+              <span aria-hidden="true">→</span>
               <h3>{title}</h3>
               <p>{copy}</p>
             </article>
@@ -125,31 +130,32 @@ export default function Home() {
 
       <section className="government section" id="government">
         <div className="gov-panel">
-          <div className="gov-code" aria-hidden="true">GOV<br />READY</div>
+          <div className="gov-credentials">
+            <span className="brief-label">Public sector &amp; prime contractors</span>
+            <strong>Prepared for<br />the requirement.</strong>
+            <dl><div><dt>Business</dt><dd>Veteran-owned small business</dd></div><div><dt>UEI</dt><dd>JU2PUDSGGZG5</dd></div><div><dt>CAGE</dt><dd>1SHG4</dd></div><div><dt>NAICS</dt><dd>484122 · 484220 · 484230 · 492210</dd></div><div><dt>Opportunities</dt><dd>Government &amp; subcontracting</dd></div></dl>
+          </div>
           <div className="gov-copy">
             <p className="eyebrow"><span /> Government contracting</p>
-            <h2>A logistics partner that understands the environment.</h2>
+            <h2>Experience that understands the mission.</h2>
             <p>
               BRG welcomes government, prime-contractor, and subcontracting opportunities.
-              The company is registered in SAM.gov and brings experience relevant to logistics,
+              Veteran leadership brings experience across logistics,
               supply chain operations, acquisition, contracts, quality assurance, and program management.
             </p>
-            <p className="gov-note">
-              Leadership experience informs BRG’s approach and is not presented as corporate past performance or government endorsement.
-            </p>
-            <a className="button button-light" href="#quote">Submit an opportunity <Arrow /></a>
+            <a className="button button-light" href="#quote">Discuss a contracting opportunity <Arrow /></a><p className="gov-note">Leadership experience informs our approach; it does not represent BRG corporate past performance or government endorsement.</p>
           </div>
         </div>
       </section>
 
       <section className="about section" id="about">
-        <div className="about-number">03</div>
+        <div className="about-marker"><span>THE BRG STANDARD</span><strong>Discipline.<br />Accountability.<br />Ownership.</strong></div>
         <div className="about-copy">
           <p className="eyebrow"><span /> About BRG</p>
-          <h2>Discipline translated into customer outcomes.</h2>
+          <h2>Veteran leadership.<br />Accountability in action.</h2>
           <p className="large-copy">
             BRG Integrated Services is a veteran-owned logistics company based in Aiken, South Carolina.
-            Its operating approach centers on careful planning, accountable communication, and a clear point of responsibility.
+            Founded in 2025, BRG is led by Nnamdi Small, whose U.S. Marine Corps and federal civilian experience spans logistics, acquisition, purchasing, quality assurance, and program management. That background shapes a deliberate approach to every customer requirement.
           </p>
           <div className="principles">
             <div><strong>Plan deliberately</strong><p>Review the route, cargo, timing, and constraints before movement begins.</p></div>
@@ -159,18 +165,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="coverage-section" aria-labelledby="coverage-title">
-        <div className="coverage-map" aria-hidden="true">
-          <div className="state state-nc">NC</div>
-          <div className="state state-sc">SC</div>
-          <div className="state state-ga">GA</div>
-          <span className="origin">Aiken</span>
+      <section id="coverage" className="coverage-section" aria-labelledby="coverage-title">
+        <div className="coverage-region">
+          <p className="eyebrow"><span /> Our service region</p>
+          <ul><li><span>SC</span>South Carolina</li><li><span>NC</span>North Carolina</li><li><span>GA</span>Georgia</li></ul>
+          <p className="coverage-base">Headquartered in Aiken, South Carolina</p>
         </div>
         <div className="coverage-copy">
           <p className="eyebrow"><span /> Regional focus</p>
           <h2 id="coverage-title">Centered in Aiken. Built for the region.</h2>
           <p>
-            BRG’s initial regional focus covers transportation needs across South Carolina,
+            BRG coordinates regional transportation across South Carolina,
             North Carolina, and Georgia. Every route is reviewed for service fit and availability.
           </p>
           <a className="text-link dark-link" href="#quote">Request a route review <Arrow /></a>
@@ -181,7 +186,7 @@ export default function Home() {
         <div className="quote-intro">
           <p className="eyebrow"><span /> Start a conversation</p>
           <h2>Tell us what needs to move.</h2>
-          <p>Share the essentials. BRG will review the route, timing, cargo, and service requirements together.</p>
+          <p>From an urgent shipment to a recurring route or contracting opportunity, start with a direct conversation.</p><div className="contact-links"><a href="tel:+18032210020">803-221-0020 ↗</a><a href="mailto:brgsonstruckingllc@outlook.com">brgsonstruckingllc@outlook.com ↗</a></div><p className="quote-note">Cargo, vehicle availability, handling, and site-access requirements are reviewed before acceptance. No hazardous materials, oversized cargo, or specialized heavy equipment.</p>
         </div>
         <QuoteForm />
       </section>

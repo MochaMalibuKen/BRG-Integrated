@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://brg-integrated-services-preview.eagle-corps-9908.chatgpt.site'),
-  title: 'BRG Integrated Services | Regional Logistics',
+  title: 'BRG Integrated Services | Veteran-Owned Logistics',
   description:
     'Veteran-owned regional logistics for commercial, government, and prime-contractor requirements across South Carolina, North Carolina, and Georgia.',
   openGraph: {
-    title: 'BRG Integrated Services | Regional Logistics',
+    title: 'BRG Integrated Services | Veteran-Owned Logistics',
     description:
       'Disciplined regional transportation, dedicated delivery, scheduled routes, and logistics support.',
     type: 'website',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BRG Integrated Services | Regional Logistics',
-    description: 'Regional logistics. Clear ownership.',
+    title: 'BRG Integrated Services | Veteran-Owned Logistics',
+    description: 'Military discipline. Logistics that deliver.',
     images: ['/og.png'],
   },
 };
