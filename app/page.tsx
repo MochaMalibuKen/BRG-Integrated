@@ -152,10 +152,10 @@ export default function Home() {
         <div className="about-marker"><span>THE BRG STANDARD</span><strong>Discipline.<br />Accountability.<br />Ownership.</strong></div>
         <div className="about-copy">
           <p className="eyebrow"><span /> About BRG</p>
-          <h2>Veteran leadership.<br />Accountability in action.</h2>
+          <h2>Veteran leadership.<br />Backed by years of federal civilian experience.</h2>
           <p className="large-copy">
             BRG Integrated Services is a service disabled veteran owned logistics company based in Aiken, South Carolina.
-            Founded in 2025, BRG is led by Nnamdi Small, whose U.S. Marine Corps and federal civilian experience spans logistics, acquisition, purchasing, quality assurance, and program management. That background shapes a deliberate approach to every customer requirement.
+            Founded in 2025, BRG is led by experienced military service members with private sector and federal civilian experience spanning logistics, acquisition, purchasing, quality assurance, and program management. That background shapes a deliberate approach to every customer requirement.
           </p>
           <div className="principles">
             <div><strong>Plan deliberately</strong><p>Review the route, cargo, timing, and constraints before movement begins.</p></div>
