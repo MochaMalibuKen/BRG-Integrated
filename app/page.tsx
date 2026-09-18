@@ -50,7 +50,7 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#services">Services</a>
           <a href="#government">Government</a>
-          <a href="#founder">Founder &amp; CEO</a>
+          <a href="#about">About BRG</a>
           <a href="#coverage">Coverage</a>
         </nav>
         <a className="header-cta" href="#quote">Request a quote <Arrow /></a>
@@ -159,14 +159,14 @@ export default function Home() {
             BRG is building its reputation through the care and reliability it brings to each customer requirement.
           </p>
           <section className="leadership-narrative" id="founder" aria-labelledby="founder-title">
-            <h3 id="founder-title">Founder &amp; CEO</h3>
+            <h3 id="founder-title">Co-Founder &amp; CEO</h3>
             <p>
-              BRG’s Founder &amp; CEO brings military service, private-sector experience, and years of federal civilian experience
+              BRG’s Co-Founder &amp; CEO brings military service, private-sector experience, and years of federal civilian experience
               across logistics, acquisition, purchasing, quality assurance, and program management.
               His professional background informs the company he is building: plan deliberately, communicate clearly, and take responsibility for the work.
             </p>
             <p className="experience-boundary">
-              This experience belongs to the Founder &amp; CEO. It informs BRG’s standards; it does not represent BRG corporate past performance or government endorsement.
+              This experience belongs to the Co-Founder &amp; CEO. It informs BRG’s standards; it does not represent BRG corporate past performance or government endorsement.
             </p>
           </section>
           <section className="leadership-narrative" aria-labelledby="brg-today-title">

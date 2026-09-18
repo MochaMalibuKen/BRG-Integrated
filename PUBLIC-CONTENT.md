@@ -35,7 +35,7 @@ BRG brings a disciplined, accountable approach to regional logistics. The compan
 
 BRG is family-founded. Service, responsibility, keeping commitments, and accountability to one another inform how the company approaches customer requirements. BRG is building its reputation through performance rather than claiming a long corporate operating history.
 
-The Founder & CEO brings military service, private-sector experience, and years of federal civilian experience across logistics, acquisition, purchasing, quality assurance, and program management. His professional experience informs BRG's standards; it is not BRG corporate past performance or government endorsement. Public leadership copy does not identify him by name.
+The Co-Founder & CEO brings military service, private-sector experience, and years of federal civilian experience across logistics, acquisition, purchasing, quality assurance, and program management. His professional experience informs BRG's standards; it is not BRG corporate past performance or government endorsement. Public leadership copy does not identify him by name.
 
 ## Government contracting
 
