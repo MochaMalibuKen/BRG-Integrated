@@ -50,7 +50,7 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#services">Services</a>
           <a href="#government">Government</a>
-          <a href="#about">Leadership</a>
+          <a href="#founder">Founder &amp; CEO</a>
           <a href="#coverage">Coverage</a>
         </nav>
         <a className="header-cta" href="#quote">Request a quote <Arrow /></a>
@@ -148,20 +148,40 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="about section" id="about">
+      <section className="about section" id="about" aria-labelledby="family-title">
         <div className="about-marker"><span>THE BRG STANDARD</span><strong>Discipline.<br />Accountability.<br />Ownership.</strong></div>
         <div className="about-copy">
-          <p className="eyebrow"><span /> About BRG</p>
-          <h2>Veteran leadership.<br />Backed by years of federal civilian experience.</h2>
+          <p className="eyebrow"><span /> Family foundation</p>
+          <h2 id="family-title">Family-founded.<br />Mission-driven.</h2>
           <p className="large-copy">
-            BRG Integrated Services is a service disabled veteran owned logistics company based in Aiken, South Carolina.
-            Founded in 2025, BRG is led by experienced military service members with private sector and federal civilian experience spanning logistics, acquisition, purchasing, quality assurance, and program management. That background shapes a deliberate approach to every customer requirement.
+            BRG Integrated Services is a family-founded, service disabled veteran owned logistics company based in Aiken, South Carolina.
+            Family is the foundation for how BRG approaches service: taking responsibility, keeping commitments, and being accountable to one another.
+            BRG is building its reputation through the care and reliability it brings to each customer requirement.
           </p>
-          <div className="principles">
-            <div><strong>Plan deliberately</strong><p>Review the route, cargo, timing, and constraints before movement begins.</p></div>
-            <div><strong>Communicate clearly</strong><p>Keep the requirement, responsibility, and next action visible.</p></div>
-            <div><strong>Own the mission</strong><p>Coordinate each request with calm, direct accountability.</p></div>
-          </div>
+          <section className="leadership-narrative" id="founder" aria-labelledby="founder-title">
+            <h3 id="founder-title">Founder &amp; CEO</h3>
+            <p>
+              BRG’s Founder &amp; CEO brings military service, private-sector experience, and years of federal civilian experience
+              across logistics, acquisition, purchasing, quality assurance, and program management.
+              His professional background informs the company he is building: plan deliberately, communicate clearly, and take responsibility for the work.
+            </p>
+            <p className="experience-boundary">
+              This experience belongs to the Founder &amp; CEO. It informs BRG’s standards; it does not represent BRG corporate past performance or government endorsement.
+            </p>
+          </section>
+          <section className="leadership-narrative" aria-labelledby="brg-today-title">
+            <h3 id="brg-today-title">BRG today</h3>
+            <p>
+              BRG puts these values into practice through regional transportation, dedicated delivery, and logistics coordination
+              for commercial organizations, government buyers, and prime contractors.
+              Each request starts with a review of the route, timing, cargo, and service requirements, with a clear point of responsibility from request through delivery.
+            </p>
+            <div className="principles">
+              <div><strong>Plan deliberately</strong><p>Review the route, cargo, timing, and constraints before movement begins.</p></div>
+              <div><strong>Communicate clearly</strong><p>Keep the requirement, responsibility, and next action visible.</p></div>
+              <div><strong>Own the mission</strong><p>Coordinate each request with calm, direct accountability.</p></div>
+            </div>
+          </section>
         </div>
       </section>
 

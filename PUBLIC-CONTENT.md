@@ -6,6 +6,7 @@
 - Location: Aiken, South Carolina
 - Contact email: brgintegratedservices@outlook.com
 - Business type: Service Disabled Veteran Owned small business
+- Foundation: Family-founded, with service, responsibility, and accountability informing its operating standards
 - Market focus: Commercial and government logistics
 - Regional focus: South Carolina, North Carolina, and Georgia, subject to route and availability review
 
@@ -29,6 +30,12 @@ Service fit, route coverage, timing, cargo requirements, and vehicle availabilit
 ## Public positioning
 
 BRG brings a disciplined, accountable approach to regional logistics. The company is positioned to support buyers who value direct communication, careful coordination, and a clear point of responsibility from request through delivery.
+
+## Family foundation and leadership
+
+BRG is family-founded. Service, responsibility, keeping commitments, and accountability to one another inform how the company approaches customer requirements. BRG is building its reputation through performance rather than claiming a long corporate operating history.
+
+The Founder & CEO brings military service, private-sector experience, and years of federal civilian experience across logistics, acquisition, purchasing, quality assurance, and program management. His professional experience informs BRG's standards; it is not BRG corporate past performance or government endorsement. Public leadership copy does not identify him by name.
 
 ## Government contracting
 
