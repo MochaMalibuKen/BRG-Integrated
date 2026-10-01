@@ -9,7 +9,7 @@ export default function QuoteForm() {
     event.preventDefault();
     const fields = new FormData(event.currentTarget);
     const body = Array.from(fields.entries()).map(([key, value]) => `${key}: ${value}`).join('\n\n');
-    setDraft(`mailto:brgsonstruckingllc@outlook.com?subject=${encodeURIComponent('BRG logistics inquiry — ' + fields.get('organization'))}&body=${encodeURIComponent(body)}`);
+    setDraft(`mailto:brgintegratedservices@outlook.com?subject=${encodeURIComponent('BRG logistics inquiry — ' + fields.get('organization'))}&body=${encodeURIComponent(body)}`);
   }
 
   return (
@@ -77,7 +77,7 @@ export default function QuoteForm() {
       </div>
       {draft && (
         <p className="form-status" role="status">
-          Your request is ready. <a className="text-link" href={draft}>Open email draft ↗</a> to review and send it. If no email app opens, email the details directly to brgsonstruckingllc@outlook.com. Nothing has been sent yet.
+          Your request is ready. <a className="text-link" href={draft}>Open email draft ↗</a> to review and send it. If no email app opens, email the details directly to brgintegratedservices@outlook.com. Nothing has been sent yet.
         </p>
       )}
     </form>
