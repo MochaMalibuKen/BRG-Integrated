@@ -207,6 +207,27 @@ footer > a:last-child { justify-self: end; font-size: .75rem; text-transform: up
 
 :focus-visible { outline: 3px solid #ff6973; outline-offset: 4px; }
 
+.maintenance-screen {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background: #d6d3cd;
+  color: #393a37;
+  text-align: center;
+}
+
+.maintenance-screen h1 {
+  max-width: 640px;
+  margin: 0;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+}
+
 @media (max-width: 900px) {
   .site-header { grid-template-columns: 1fr auto; }
   nav { display: none; }
