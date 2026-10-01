@@ -3,11 +3,13 @@
 import { FormEvent, useState } from 'react';
 
 export default function QuoteForm() {
-  const [reviewed, setReviewed] = useState(false);
+  const [draft, setDraft] = useState('');
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setReviewed(true);
+    const fields = new FormData(event.currentTarget);
+    const body = Array.from(fields.entries()).map(([key, value]) => `${key}: ${value}`).join('\n\n');
+    setDraft(`mailto:brgsonstruckingllc@outlook.com?subject=${encodeURIComponent('BRG logistics inquiry — ' + fields.get('organization'))}&body=${encodeURIComponent(body)}`);
   }
 
   return (
@@ -70,12 +72,12 @@ export default function QuoteForm() {
         />
       </label>
       <div className="form-footer">
-        <p>This local preview reviews the form experience only. It does not transmit submissions.</p>
-        <button className="button button-primary" type="submit">Review request <span aria-hidden="true">↗</span></button>
+        <p>Prepare your request, then send it through your email app. This form does not store or submit your information. Please omit sensitive or controlled information.</p>
+        <button className="button button-primary" type="submit">Prepare email request <span aria-hidden="true">↗</span></button>
       </div>
-      {reviewed && (
+      {draft && (
         <p className="form-status" role="status">
-          Request reviewed in this preview only. No information was sent.
+          Your request is ready. <a className="text-link" href={draft}>Open email draft ↗</a> to review and send it. If no email app opens, email the details directly to brgsonstruckingllc@outlook.com. Nothing has been sent yet.
         </p>
       )}
     </form>
