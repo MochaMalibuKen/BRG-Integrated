@@ -2,9 +2,6 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 
-// Set to false to restore the website when maintenance ends.
-const maintenanceMode = true;
-
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -48,11 +45,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {maintenanceMode ? (
-          <main className="maintenance-screen">
-            <h1>Temporarily down for maintenance</h1>
-          </main>
-        ) : children}
+        {children}
       </body>
     </html>
   );
